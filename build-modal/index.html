@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link href="style.css" rel="stylesheet" />
     <title>Modal</title>
   </head>
@@ -11,16 +15,17 @@
     <div id="container" class="container">
       <div id="content" class="content">
         <h2>Contact Details</h2>
-        <p>Mrs Smith, 71 Cherry Court, SOUTHAMPTON SO53 5PD UK</p>
-        <button id="close-modal" class="btn">
-          Close! <span class="cross">✕</span>
-        </button>
+        <p>
+          Mrs Smith, 71 Cherry Court, <span class="post-code">SO53 5PD UK</span>
+        </p>
+        <button id="close-btn" class="btn">Close! ✕</button>
       </div>
     </div>
-    <h1>Click to reveal Mrs Smith's contact details!</h1>
-    <button id="open-modal" class="btn">
-      Contact Me <span class="envelope">✉️</span>
-    </button>
+    <h1>
+      Click to reveal Mrs Smith's
+      <span class="contact-dtls">Contact Details!</span>
+    </h1>
+    <button id="open-btn" class="btn">Contact Me ✉️</button>
 
     <script src="script.js"></script>
   </body>
