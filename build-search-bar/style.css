@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Philosopher', sans-serif;
+}
+
+label {
+  font-size: 26px;
+  color: #f0f8ff;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  padding-left: 0;
+  margin: 50px 0;
+}
+
+li {
+  padding: 10px;
+  margin: 10px;
+  background: rgba(54, 158, 255, 0.4);
+  color: #414141;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 3px;
+  box-shadow: 5px 8px 18px #414141;
+}
+
+.searchInput {
+  margin-top: 10px;
+  padding: 8px 30px;
+  border: none;
+  outline: none;
+  background: #f0f8ff;
+  border-radius: 3px;
+  font-size: 18px;
+  box-shadow: 5px 10px 18px #414141;
+}
+
+.search {
+  background: #369eff;
+  width: 100%;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 600px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #afc6e6;
+}
