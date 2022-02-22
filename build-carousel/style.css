@@ -12,12 +12,13 @@ body,
 }
 
 .wraper-item,
-.wraper-item-hidden {
+.item-hidden {
   display: none;
 }
 
 .item-visible {
   display: block;
+  animation: fadeVisibility 0.5s;
 }
 
 .img {
@@ -38,7 +39,7 @@ body,
 }
 
 .btn {
-  padding: 7px 17px;
+  padding: 5px 17px;
   font-size: 24px;
   background: rgba(255, 255, 255, 0.1);
   color: rgba(255, 255, 255, 0.8);
@@ -60,4 +61,13 @@ body,
 
 .btn-next {
   margin-right: 25px;
+}
+
+@keyframes fadeVisibility {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
