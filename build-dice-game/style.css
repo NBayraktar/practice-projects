@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arima Madurai', cursive;
+  color: #333;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+.container {
+  width: 800px;
+  margin: 50px auto;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #b0ffe1;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #333;
+}
+
+.dice-wraper {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-1,
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dice-box {
+  width: 120px;
+  height: 120px;
+  background: #d6e8f8;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+
+.dc-wraper {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dc-wraper-4 {
+  display: flex;
+  justify-content: center;
+  /* visibility: hidden; */
+}
+
+.inactiveSc {
+  color: rgba(51, 51, 51, 0.5);
+}
+
+.inactive-d {
+  width: 20px;
+  height: 20px;
+  background: #d6e8f8;
+  border: 1px solid rgba(51, 51, 51, 0.1);
+  border-radius: 50%;
+}
+
+.active-d {
+  box-shadow: 0 1px 15px 10px #555;
+}
+
+.active-c {
+  background: #333;
+}
+
+.btn-wraper {
+  margin: 50px;
+  padding-top: 25px;
+  display: flex;
+  gap: 5px;
+  flex-direction: column;
+}
+
+.btn {
+  font-size: 30px;
+  font-family: 'Arima Madurai', cursive;
+  padding: 8px 20px;
+  border: none;
+  background: #d6e8f8;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #333;
+}
+
+.btn-reset {
+  display: none;
+}
+
+.btn:hover,
+.btn:focus {
+  background: #333;
+  color: #d6e8f8;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
