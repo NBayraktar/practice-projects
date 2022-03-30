@@ -2,7 +2,6 @@
 let player1Score = 0
 let player2Score = 0
 let activePlayer = true
-
 const play1Dice = document.getElementById('oneDice')
 const play2Dice = document.getElementById('twoDice')
 let playOneS = document.getElementById('oneScore')
@@ -15,7 +14,6 @@ const d1c4 = document.getElementById('1-4')
 const d1c5 = document.getElementById('1-5')
 const d1c6 = document.getElementById('1-6')
 const d1c7 = document.getElementById('1-7')
-
 const d2c1 = document.getElementById('2-1')
 const d2c2 = document.getElementById('2-2')
 const d2c3 = document.getElementById('2-3')
@@ -23,9 +21,9 @@ const d2c4 = document.getElementById('2-4')
 const d2c5 = document.getElementById('2-5')
 const d2c6 = document.getElementById('2-6')
 const d2c7 = document.getElementById('2-7')
-
 const btnRoll = document.getElementById('btn-roll')
 const btnReset = document.getElementById('btn-reset')
+const btnDices = document.getElementById('btn-dices')
 
 btnRoll.addEventListener('click', () => {
   const randomNum = Math.floor(Math.random() * 6) + 1
