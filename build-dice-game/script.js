@@ -25,6 +25,11 @@ const btnRoll = document.getElementById('btn-roll')
 const btnReset = document.getElementById('btn-reset')
 const btnDices = document.getElementById('btn-dices')
 
+btnDices.addEventListener('click', () => {
+  const randomNum = Math.floor(Math.random() * 6) + 1
+
+})
+
 btnRoll.addEventListener('click', () => {
   const randomNum = Math.floor(Math.random() * 6) + 1
   if (activePlayer) {
