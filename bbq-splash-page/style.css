@@ -1,0 +1,62 @@
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  color: #404040;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 2.25rem;
+  color: #fff;
+  line-height: 1.2em;
+}
+
+strong {
+  display: block;
+}
+
+h1 + p {
+  color: #f18119;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-bottom: 1.6em;
+}
+
+.top-text {
+  font-size: 0.625rem;
+  font-weight: 900;
+  color: #f18119;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  order: -1;
+}
+
+.intro {
+  background-image: url(images/dark-ribs.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h2 {
+  font-size: 1.3125rem;
+  margin-bottom: 0;
+}
+
+h2 + p {
+  color: #f18119;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-top: 0;
+}
+
+.main-text {
+  padding: 0 3em;
+  line-height: 1.5em;
+}
